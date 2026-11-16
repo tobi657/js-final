@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html {
@@ -29,11 +29,26 @@ h1 {
   font-size: 45px;
   max-width: 1000px;
   margin-bottom: 40px;
-  color: #d30e0e;
+  color: #fff;
   line-height: 1.25;
 }
 
 /* NAVBAR */
+
+.nav__blinker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100px;
+}
+
+.logo {
+  position: relative;
+}
 
 .navbar {
   height: 326px;
@@ -253,3 +268,31 @@ input:focus {
   flex-direction: row;
 }
 
+/* 
+
+SEARCH 
+
+*/
+
+#search {
+  background-color:#100127;
+}
+
+.content-wrapper {
+  font-family: "Roboto";
+}
+
+.img__text {
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.black-txt {
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: normal;
+  font-size: 24px;
+}
