@@ -9,7 +9,7 @@
     src="https://kit.fontawesome.com/c21e7ea318.js"
     crossorigin="anonymous"
   ></script>
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -17,11 +17,6 @@
     <div class="flex flex-col">
       <div class="navbar flex flex-col">
         <div class="flex content-wrapper justify-between align-center">
-          <!-- <div class="links flex align-center justify-between">
-            <a data-v-390ceb07="" href="/" class="link router-link-active">Home</a>
-            <a data-v-390ceb07="" href="/findyourcar" class="link router-link-exact-active router-link-active">Find your car</a>
-            <a data-v-390ceb07="" class="btn-contact">Contact</a>
-          </div> -->
           <div id="phone-nav">
             <div class="bento-menu">
               <div data-v-48b363cf="" style="background-color: rgb(255, 255, 255);"></div>
@@ -43,9 +38,11 @@
               <div class="logo">
                <img class="logo__img" src="assets/blinker.1.png" alt="blinker__logo">
               </div>
-              <a data-v-48b363cf="" href="/" class="link router-link-active">Home</a>
-              <a data-v-48b363cf="" href="/findyouranime" class="link router-link-exact-active router-link-active">Find Your Anime</a>
-              <a data-v-48b363cf="" href="/" class="link router-link-active">Contact</a>
+              <div class="nav__links">
+                <a data-v-48b363cf="" href="/" class="link router-link-active">Home</a>
+                <a data-v-48b363cf="" href="/findyouranime" class="link router-link-exact-active router-link-active">Find Your Anime</a>
+                <a data-v-48b363cf="" href="/" class="link router-link-active nav__link--contact">Contact</a>
+              </div>
             </div>
            </nav>
           </div>
@@ -80,7 +77,7 @@
           <div class="slider-wrapper"></div> -->
         </div>
         <div id="anime">
-          <div class="content-wrapper">
+          <div class="anime-wrapper">
             <!-- <div class="loading-state flex justify-center">
               <svg data-v-cf78a876="" data-v-ca62299c="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="spinner" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-spinner fa-w-16" style="font-size: 30px; color: #22b9dc">
                 <path data-v-cf78a876="" fill="currentColor" d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z" class=""></path>
@@ -99,5 +96,21 @@
   </div>
 
 </body>
+
+<footer>
+  <div class="container">
+    <div class="row footer__row">
+      <a href="#" class="footer__anchor">
+        <figure class="footer__logo">
+          <img src="assets/blinker.1.png" class="footer__logo--img" alt=""/>
+        </figure>
+        <span class="footer__logo--popper">
+          Top
+        <i class="fa-solid fa-arrow-up"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+</footer>
 
 </html>
